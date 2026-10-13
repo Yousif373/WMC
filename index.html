@@ -2,12 +2,137 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine erste Webseite</title>
+    <title>Über mich</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hallo WMC!</h1>
-    <p>Meine Entwicklungsumgebung funktioniert.</p>
+
+    <header>
+        <h1>Über mich</h1>
+        <p>Willkommen auf meiner persönlichen Webseite!</p>
+    </header>
+
+    <nav aria-label="Hauptnavigation">
+        <ul>
+            <li><a href="#ueber-mich">Über mich</a></li>
+            <li><a href="#hobbys">Meine Hobbys</a></li>
+            <li><a href="#ziele">Meine Ziele</a></li>
+            <li><a href="#kontakt">Abschluss</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <article id="ueber-mich">
+            <h2>Wer bin ich?</h2>
+
+            <p>
+                Hallo! Ich bin 17 Jahre alt und gehe zur Schule.
+                Ich interessiere mich für viele verschiedene Dinge
+                und versuche, mich persönlich immer weiterzuentwickeln.
+            </p>
+
+            <p>
+                In meiner Freizeit beschäftige ich mich besonders gerne
+                mit Autos und mache viel Sport. Ich finde es wichtig,
+                aktiv zu bleiben, neue Erfahrungen zu sammeln und
+                immer wieder neue Dinge zu lernen.
+            </p>
+
+            <figure>
+                <img
+                    src="https://placehold.co/600x300?text=Meine+Interessen"
+                    alt="Symbolisches Bild für meine persönlichen Interessen"
+                    width="600"
+                    height="300"
+                >
+                <figcaption>
+                    Meine Interessen und meine Freizeit
+                </figcaption>
+            </figure>
+        </article>
+
+        <section id="hobbys">
+            <h2>Meine Hobbys und Interessen</h2>
+
+            <h3>Autos und Technik</h3>
+            <p>
+                Ich liebe Autos und interessiere mich für verschiedene
+                Automarken, das Design und die Technik dahinter.
+                Besonders spannend finde ich, wie sich Autos
+                weiterentwickeln und welche neuen Technologien es gibt.
+            </p>
+
+            <h3>Sport und Fitness</h3>
+            <p>
+                Sport spielt eine wichtige Rolle in meinem Leben.
+                Ich bin gerne aktiv und möchte fit bleiben.
+                Sport hilft mir dabei, meine Ausdauer zu verbessern,
+                meine Ziele zu verfolgen und einen Ausgleich zur Schule
+                zu haben.
+            </p>
+
+            <h3>Neue Dinge lernen</h3>
+            <p>
+                Ich probiere gerne neue Sachen aus und möchte meine
+                Fähigkeiten Schritt für Schritt verbessern.
+                Dazu gehört auch, mich mit Computern und der
+                Entwicklung von Webseiten zu beschäftigen.
+            </p>
+
+            <details>
+                <summary>Was motiviert mich?</summary>
+                <p>
+                    Mich motiviert es, Fortschritte zu sehen,
+                    neue Herausforderungen zu meistern und an meinen
+                    persönlichen Zielen zu arbeiten.
+                    Ich finde, dass man mit Geduld und Einsatz
+                    viel erreichen kann.
+                </p>
+            </details>
+        </section>
+
+        <section id="ziele">
+            <h2>Meine Ziele für die Zukunft</h2>
+
+            <p>
+                Ich möchte in der Schule mein Bestes geben und
+                gleichzeitig meine Interessen weiterentwickeln.
+                Außerdem möchte ich mehr über Technik lernen,
+                neue Fähigkeiten erwerben und herausfinden,
+                welche Möglichkeiten mir in Zukunft offenstehen.
+            </p>
+
+            <ul>
+                <li>Meine schulischen Kenntnisse verbessern</li>
+                <li>Sportlich aktiv bleiben</li>
+                <li>Mehr über Autos und Technik erfahren</li>
+                <li>Neue Fähigkeiten im Bereich Webentwicklung lernen</li>
+                <li>Meine persönlichen Ziele Schritt für Schritt erreichen</li>
+            </ul>
+        </section>
+
+        <aside>
+            <h2>Schon gewusst?</h2>
+
+            <p>
+                HTML steht für HyperText Markup Language.
+                Mit HTML erstellt man die Struktur einer Webseite.
+                CSS wird verwendet, um das Aussehen zu gestalten.
+            </p>
+        </aside>
+
+    </main>
+
+    <footer id="kontakt">
+        <p>Danke, dass du meine Webseite besucht hast!</p>
+        <p>&copy; 2026 – Meine persönliche Webseite</p>
+    </footer>
+
 </body>
 </html>
+```
